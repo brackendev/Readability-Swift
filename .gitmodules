@@ -1,0 +1,3 @@
+[submodule "Readability/objC-syllable-counter"]
+	path = Readability/objC-syllable-counter
+	url = https://github.com/brackendev/objC-syllable-counter.git
