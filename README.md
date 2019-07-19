@@ -10,7 +10,7 @@ Readability-Swift
 
 ## Installation
 
-Git clone this repository. [objC-syllable-counter](https://github.com/brackendev/objC-syllable-counter.git) submodule is required, so be sure to clone like this:
+Git clone this repository. [objC-syllable-counter](https://github.com/brackendev/objC-syllable-counter.git) submodule is required, therefore be sure to clone like this:
 
 ````bash
 git clone --recursive https://github.com/brackendev/Readability-Swift.git
