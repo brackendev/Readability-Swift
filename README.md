@@ -1,20 +1,12 @@
 Readability-Swift
-=================
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/995af7b26a964a75a68188b61b8a830f)](https://www.codacy.com/app/brackendev/Readability-Swift?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=brackendev/Readability-Swift&amp;utm_campaign=Badge_Grade)
+=======================
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/995af7b26a964a75a68188b61b8a830f)](https://www.codacy.com/app/brackendev/Readability-Swift?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=brackendev/Readability-Swift&amp;utm_campaign=Badge_Grade)[![Build Status](https://travis-ci.com/brackendev/Readability-Swift.svg?branch=master)](https://travis-ci.com/brackendev/Readability-Swift)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbrackendev%2FReadability-Swift.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fbrackendev%2FReadability-Swift?ref=badge_shield)
 
 **Metrics to determine readability and comprehension difficulty for contemporary English text.**
 
-* [iOS](https://en.wikipedia.org/wiki/IOS) reference platform.
+* [iOS](https://en.wikipedia.org/wiki/IOS) reference platform, 9.3 minimum version.
 * Example app and tests included.
-
-## Installation
-
-Git clone this repository. [objC-syllable-counter](https://github.com/brackendev/objC-syllable-counter.git) submodule is required, therefore be sure to clone like this:
-
-````bash
-git clone --recursive https://github.com/brackendev/Readability-Swift.git
-````
 
 ## Metrics Included
 
@@ -25,9 +17,41 @@ git clone --recursive https://github.com/brackendev/Readability-Swift.git
 * [Gunning Fog Index](http://en.wikipedia.org/wiki/Gunning_fog_index)
 * [SMOG Grade](http://en.wikipedia.org/wiki/SMOG)
 
-## Usage
+## Installation
 
-See the [view controller](https://github.com/brackendev/Readability-Swift/blob/master/Readability-Swift%20Example/Readability-Swift%20Example/Classes/ViewController.swift) in the example app.
+CocoaPods is the easiest way to use this project. Add the following to your project Podfile:
+
+````Ruby
+pod 'Readability-Swift', :git => 'https://github.com/brackendev/Readability-Swift.git'
+````
+
+## Example Usage
+
+1. Import it:
+
+    ```Swift
+    import Readability_Swift
+    ```
+
+2. Use it:
+    
+    ```Swift
+    Readability.automatedReadabilityIndexForString("Test")
+    Readability.colemanLiauIndexForString("Test")
+    Readability.fleschKincaidGradeLevelForString("Test")
+    Readability.fleschReadingEaseForString("Test")
+    Readability.gunningFogScoreForString("Test")
+    Readability.smogGradeForString("Test")
+    ```
+    
+Note: Also see the [example view controller](https://github.com/brackendev/Readability-Swift/blob/master/Example/Readability-Swift/ViewController.swift).
+
+## Acknowledgements
+
+This project makes use of the following third-party libraries:
+
+* [objC-syllable-counter](https://github.com/brackendev/objC-syllable-counter.git)
+* [RegexKitLite](http://regexkit.sourceforge.net/RegexKitLite/)
 
 ## Ports
 
