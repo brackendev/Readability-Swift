@@ -1,6 +1,7 @@
 Readability-Swift
 =================
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/995af7b26a964a75a68188b61b8a830f)](https://www.codacy.com/app/brackendev/Readability-Swift?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=brackendev/Readability-Swift&amp;utm_campaign=Badge_Grade)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fbrackendev%2FReadability-Swift.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fbrackendev%2FReadability-Swift?ref=badge_shield)
 
 **Metrics to determine readability and comprehension difficulty for contemporary English text.**
 
@@ -41,3 +42,6 @@ See the [view controller](https://github.com/brackendev/Readability-Swift/blob/m
 ## License
 
 Readability-Swift is released under the MIT license. See the LICENSE file for more info.
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fbrackendev%2FReadability-Swift.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fbrackendev%2FReadability-Swift?ref=badge_large)
