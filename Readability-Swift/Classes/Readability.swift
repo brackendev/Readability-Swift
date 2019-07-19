@@ -15,11 +15,11 @@
 
 import Foundation
 
-class Readability {
+public class Readability {
     // MARK: - Automated Readability Index
     // http://en.wikipedia.org/wiki/Automated_Readability_Index
 
-    class func automatedReadabilityIndexForString(_ string: String) -> [String: Any] {
+    public class func automatedReadabilityIndexForString(_ string: String) -> [String: Any] {
         let score = automatedReadabilityIndexScoreForString(string)
         let dict = ["Score": score,
                     "Ages": automatedReadabilityIndexAgesForScore(score),
@@ -28,7 +28,7 @@ class Readability {
         return dict
     }
 
-    class func automatedReadabilityIndexScoreForString(_ string: String) -> Float {
+    public class func automatedReadabilityIndexScoreForString(_ string: String) -> Float {
         let totalWords = Float(string.wordCount())
         let totalSentences = Float(string.sentenceCount())
         let totalAlphanumericCharacters = Float(string.alphanumericCount())
@@ -37,7 +37,7 @@ class Readability {
         return score.round(to: 1)
     }
 
-    class func automatedReadabilityIndexAgesForScore(_ score: Float) -> String {
+    public class func automatedReadabilityIndexAgesForScore(_ score: Float) -> String {
         if score >= 15 {
             return "23+"
         } else if score >= 14 {
@@ -71,7 +71,7 @@ class Readability {
         }
     }
 
-    class func automatedReadabilityIndexUSASchoolLevelForScore(_ score: Float) -> String {
+    public class func automatedReadabilityIndexUSASchoolLevelForScore(_ score: Float) -> String {
         if score >= 14 {
             return "College"
         } else if score >= 13 {
@@ -106,7 +106,7 @@ class Readability {
     // MARK: - Coleman-Liau Index
     // http://en.wikipedia.org/wiki/Coleman–Liau_index
 
-    class func colemanLiauIndexForString(_ string: String) -> Float {
+    public class func colemanLiauIndexForString(_ string: String) -> Float {
         let totalWords = Float(string.wordCount())
         let totalSentences = Float(string.sentenceCount())
         let totalAlphanumericCharacters = Float(string.alphanumericCount())
@@ -118,7 +118,7 @@ class Readability {
     // MARK: - Flesch-Kincaid Grade Level
     // http://en.wikipedia.org/wiki/Flesch–Kincaid_readability_tests
 
-    class func fleschKincaidGradeLevelForString(_ string: String) -> Float {
+    public class func fleschKincaidGradeLevelForString(_ string: String) -> Float {
         let totalWords = Float(string.wordCount())
         let totalSentences = Float(string.sentenceCount())
         let alphaNumeric = string.alphanumeric()
@@ -131,7 +131,7 @@ class Readability {
     // MARK: - Flesch Reading Ease
     // http://en.wikipedia.org/wiki/Flesch–Kincaid_readability_tests
 
-    class func fleschReadingEaseForString(_ string: String) -> [String: Any] {
+    public class func fleschReadingEaseForString(_ string: String) -> [String: Any] {
         let score = fleschReadingEaseScoreForString(string)
         let dict = ["Score": score,
                     "USA School Level": fleschReadingEaseUSASchoolLevelForScore(score),
@@ -140,7 +140,7 @@ class Readability {
         return dict
     }
 
-    class func fleschReadingEaseScoreForString(_ string: String) -> Float {
+    public class func fleschReadingEaseScoreForString(_ string: String) -> Float {
         let totalWords = Float(string.wordCount())
         let totalSentences = Float(string.sentenceCount())
         let alphaNumeric = string.alphanumeric()
@@ -150,7 +150,7 @@ class Readability {
         return score.round(to: 1)
     }
 
-    class func fleschReadingEaseUSASchoolLevelForScore(_ score: Float) -> String {
+    public class func fleschReadingEaseUSASchoolLevelForScore(_ score: Float) -> String {
         if score >= 90 {
             return "5"
         } else if score >= 80 {
@@ -168,7 +168,7 @@ class Readability {
         }
     }
 
-    class func fleschReadingEaseNotesForScore(_ score: Float) -> String {
+    public class func fleschReadingEaseNotesForScore(_ score: Float) -> String {
         if score >= 90 {
             return "Very easy to read. Easily understood by an average 11-year-old student."
         } else if score >= 80 {
@@ -189,7 +189,7 @@ class Readability {
     // MARK: - Gunning Fog Score
     // http://en.wikipedia.org/wiki/Gunning_fog_index
 
-    class func gunningFogScoreForString(_ string: String) -> Float {
+    public class func gunningFogScoreForString(_ string: String) -> Float {
         let totalWords = Float(string.wordCount())
         let totalSentences = Float(string.sentenceCount())
         let totalComplexWords = Float(string.complexWordCount())
@@ -201,7 +201,7 @@ class Readability {
     // MARK: - SMOG Grade
     // http://en.wikipedia.org/wiki/Gunning_fog_index
 
-    class func smogGradeForString(_ string: String) -> Float {
+    public class func smogGradeForString(_ string: String) -> Float {
         let totalPolysyllables = Float(string.polysyllableWords(excludeCommonSuffixes: false))
         let totalSentences = Float(string.sentenceCount())
         let score = 1.043 * sqrtf(totalPolysyllables * (30.0 / totalSentences) + 3.1291)

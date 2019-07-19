@@ -1,0 +1,10 @@
+use_frameworks!
+
+target 'Readability-Swift_Example' do
+  pod 'Readability-Swift', :path => '../'
+  pod 'RegexKitLite', '4.0'
+
+  target 'Readability-Swift_Tests' do
+    inherit! :search_paths
+  end
+end

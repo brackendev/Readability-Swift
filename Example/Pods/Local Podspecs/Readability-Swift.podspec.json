@@ -1,0 +1,28 @@
+{
+  "name": "Readability-Swift",
+  "version": "0.1.0",
+  "summary": "Metrics to determine readability and comprehension difficulty for contemporary English text.",
+  "description": "Metrics to determine readability and comprehension difficulty for contemporary English text. Included are Automated Readability Index, Coleman–Liau Index, Flesch-Kincaid Grade Level, Flesch Reading Ease, Gunning Fog Index, and SMOG Grade.",
+  "homepage": "https://brackendev.github.io/Readability-Swift/",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "brackendev": "GitHub @brackendev"
+  },
+  "source": {
+    "git": "git@github.com:brackendev/Readability-Swift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.3"
+  },
+  "source_files": "Readability-Swift/Classes/**/*",
+  "frameworks": "Foundation",
+  "dependencies": {
+    "RegexKitLite": [
+      "4.0"
+    ]
+  }
+}

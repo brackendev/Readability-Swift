@@ -1,0 +1,6 @@
+framework module Readability_Swift {
+  umbrella header "Readability-Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}
