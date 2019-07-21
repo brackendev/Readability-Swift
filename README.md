@@ -21,9 +21,15 @@ Readability-Swift
 
 CocoaPods is the easiest way to use this project. Add the following to your project Podfile:
 
-````Ruby
+```Ruby
 pod 'Readability-Swift', :git => 'https://github.com/brackendev/Readability-Swift.git'
-````
+```
+
+It is a good idea to specifiy the version or commit. For example:
+
+```Ruby
+pod 'Readability-Swift', :git => 'https://github.com/brackendev/Readability-Swift.git', commit => '2a1657ec220486499e44de2563e9c896cd969558'
+```
 
 ## Example Usage
 
@@ -44,7 +50,7 @@ pod 'Readability-Swift', :git => 'https://github.com/brackendev/Readability-Swif
     Readability.smogGradeForString("Test")
     ```
     
-Note: Also see the [example view controller](https://github.com/brackendev/Readability-Swift/blob/master/Example/Readability-Swift/ViewController.swift).
+Note: See the [example view controller](https://github.com/brackendev/Readability-Swift/blob/master/Example/Readability-Swift/ViewController.swift).
 
 ## Acknowledgements
 
