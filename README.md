@@ -25,7 +25,7 @@ CocoaPods is the easiest way to use this project. Add the following to your proj
 pod 'Readability-Swift', :git => 'https://github.com/brackendev/Readability-Swift.git'
 ```
 
-It is a good idea to specifiy the version or commit. For example:
+It is a good idea to specifiy the commit. For example:
 
 ```Ruby
 pod 'Readability-Swift', :git => 'https://github.com/brackendev/Readability-Swift.git', commit => '2a1657ec220486499e44de2563e9c896cd969558'
