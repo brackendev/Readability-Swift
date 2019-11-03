@@ -8,7 +8,7 @@ DEPENDENCIES:
   - RegexKitLite (= 4.0)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - RegexKitLite
 
 EXTERNAL SOURCES:
@@ -16,9 +16,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Readability-Swift: a57388fee4b4c383c6da40318ff8cdf597835f6a
+  Readability-Swift: ae12eab960fb02e8f1869073d8201702d545f169
   RegexKitLite: c0e4c12e6e7de0769f3a3ed679f0f61604170661
 
 PODFILE CHECKSUM: d71084d9c5ae30c5b89e3e15657b9d297b3db636
 
-COCOAPODS: 1.7.4
+COCOAPODS: 1.8.4

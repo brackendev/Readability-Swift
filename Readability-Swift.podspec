@@ -9,8 +9,9 @@ Metrics to determine readability and comprehension difficulty for contemporary E
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'brackendev' => 'GitHub @brackendev' }
   s.source           = { :git => 'git@github.com:brackendev/Readability-Swift.git', :tag => s.version.to_s }
-  s.ios.deployment_target = '9.3'
+  s.ios.deployment_target = '10.3'
   s.source_files = 'Readability-Swift/Classes/**/*'
   s.frameworks = 'Foundation'
   s.dependency 'RegexKitLite', '4.0'
+  s.swift_version = "5.1"
 end

@@ -16,7 +16,7 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.3"
+    "ios": "10.3"
   },
   "source_files": "Readability-Swift/Classes/**/*",
   "frameworks": "Foundation",
@@ -24,5 +24,7 @@
     "RegexKitLite": [
       "4.0"
     ]
-  }
+  },
+  "swift_versions": "5.1",
+  "swift_version": "5.1"
 }

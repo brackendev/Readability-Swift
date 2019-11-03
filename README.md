@@ -5,7 +5,7 @@ Readability-Swift
 
 **Metrics to determine readability and comprehension difficulty for contemporary English text.**
 
-* [iOS](https://en.wikipedia.org/wiki/IOS) reference platform, 9.3 minimum version.
+* [iOS](https://en.wikipedia.org/wiki/IOS) reference platform, 10.3 minimum version.
 * Example app and tests included.
 
 ## Metrics Included
