@@ -22,6 +22,8 @@ Readability-Swift
 CocoaPods is the easiest way to use this project. Add the following to your project Podfile:
 
 ```Ruby
+use_modular_headers!
+
 pod 'Readability-Swift', :git => 'https://github.com/brackendev/Readability-Swift.git'
 ```
 
