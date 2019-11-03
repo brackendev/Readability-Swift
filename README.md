@@ -30,7 +30,7 @@ pod 'Readability-Swift', :git => 'https://github.com/brackendev/Readability-Swif
 It is a good idea to specifiy the commit. For example:
 
 ```Ruby
-pod 'Readability-Swift', :git => 'https://github.com/brackendev/Readability-Swift.git', commit => '2a1657ec220486499e44de2563e9c896cd969558'
+pod 'Readability-Swift', :git => 'https://github.com/brackendev/Readability-Swift.git', commit => '31c183bcda89b205072bcee3d3bcd5f5ee1bd707'
 ```
 
 ## Example Usage
