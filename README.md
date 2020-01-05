@@ -3,7 +3,7 @@ Readability-Swift
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/995af7b26a964a75a68188b61b8a830f)](https://www.codacy.com/app/brackendev/Readability-Swift?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=brackendev/Readability-Swift&amp;utm_campaign=Badge_Grade)[![Build Status](https://travis-ci.com/brackendev/Readability-Swift.svg?branch=master)](https://travis-ci.com/brackendev/Readability-Swift)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbrackendev%2FReadability-Swift.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fbrackendev%2FReadability-Swift?ref=badge_shield)
 
-**Metrics to determine readability and comprehension difficulty for contemporary English text.**
+**Determine readability and comprehension difficulty for contemporary English text.**
 
 * [iOS](https://en.wikipedia.org/wiki/IOS) reference platform, 10.3 minimum version.
 * Example app and tests included.
