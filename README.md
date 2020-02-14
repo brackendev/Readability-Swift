@@ -19,7 +19,7 @@ Readability-Swift
 
 ## Installation
 
-CocoaPods is the easiest way to use this project. Add the following to your project Podfile:
+[CocoaPods](http://cocoapods.org) is the easiest way to use this project. Add the following to your project Podfile:
 
 ```Ruby
 use_modular_headers!
