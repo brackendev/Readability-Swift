@@ -2,8 +2,8 @@
 //  Readability.swift
 //  Readability-Swift
 //
-//  Created by brackendev.
-//  Copyright (c) 2014-2019 brackendev. All rights reserved.
+//  Created by Bracken Spencer.
+//  Copyright (c) 2014-2021 Bracken Spencer. All rights reserved.
 //
 
 //  Automated Readability Index: automatedReadabilityIndexForString
