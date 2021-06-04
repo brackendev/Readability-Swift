@@ -71,7 +71,10 @@ This project makes use of the following third-party libraries:
 ## Author
 
 Bracken Spencer
-<br>[GitHub](https://www.github.com/brackendev) [LinkedIn](https://www.linkedin.com/in/brackenspencer/)
+
+* [GitHub](https://www.github.com/brackendev)
+* [LinkedIn](https://www.linkedin.com/in/brackenspencer/)
+* [Twitter](https://twitter.com/brackendev)
 
 ## License
 
