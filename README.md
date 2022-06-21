@@ -15,10 +15,6 @@ Readability-Swift
 * [Gunning Fog Index](http://en.wikipedia.org/wiki/Gunning_fog_index)
 * [SMOG Grade](http://en.wikipedia.org/wiki/SMOG)
 
-## TODO
-
-- [ ] Support latest iOS SDK
-
 ## Installation
 
 [CocoaPods](http://cocoapods.org) is the easiest way to use this project. Add the following to your project Podfile:
